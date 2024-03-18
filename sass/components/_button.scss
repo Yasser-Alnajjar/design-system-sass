@@ -1,0 +1,14 @@
+.btn {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: $delay ease;
+  &:focus,
+  &:focus-visible {
+    outline: 0;
+  }
+  &:active {
+    opacity: 0.8;
+  }
+}
