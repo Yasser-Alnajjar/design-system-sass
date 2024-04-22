@@ -12,24 +12,3 @@
 .rounded {
   border-radius: $unit;
 }
-@each $round, $pixel in $rounded {
-  .rounded-#{$round} {
-    border-radius: $pixel;
-  }
-  .rounded-r-#{$round} {
-    border-top-right-radius: $pixel;
-    border-bottom-right-radius: $pixel;
-  }
-  .rounded-l-#{$round} {
-    border-top-left-radius: $pixel;
-    border-bottom-left-radius: $pixel;
-  }
-  .rounded-t-#{$round} {
-    border-top-right-radius: $pixel;
-    border-top-left-radius: $pixel;
-  }
-  .rounded-b-#{$round} {
-    border-bottom-right-radius: $pixel;
-    border-bottom-left-radius: $pixel;
-  }
-}
