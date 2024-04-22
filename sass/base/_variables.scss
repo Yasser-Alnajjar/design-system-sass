@@ -253,3 +253,10 @@ $dark-cyan-900: #cff4fc;
 
 $delay: 0.3s;
 $unit: 4;
+$gap:.5rem;
+$breakPoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px,
+);

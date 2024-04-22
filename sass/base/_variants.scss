@@ -294,16 +294,17 @@ $variants_dark: (
       background-color: $background;
     }
     .btn:hover.#{$variant} {
-      background-color: darken($background, 10);
+      background-color: lighten($background, 10);
     }
 
     .control.#{$variant} {
       border-color: $background;
+      color: white;
       &.#{$variant}:focus {
-        border-color: darken($background, 10);
+        border-color: lighten($background, 10);
       }
       &.#{$variant}:hover {
-        border-color: darken($background, 20);
+        border-color: lighten($background, 20);
       }
     }
   }
