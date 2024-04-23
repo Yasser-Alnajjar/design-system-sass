@@ -2,17 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: $gap;
+  margin-block: 0.5rem;
 }
-@each $screen, $width in $breakPoints {
-  @media screen and (min-width: $width) {
-    @for $i from 1 through 12 {
-      .col-#{$screen}-#{$i} {
-        width: calc((100% / 12) * $i - $gap);
-      }
-    }
-  }
-}
-
 .col-1 {
   width: calc(8.3333333333% - 0.5rem);
 }
@@ -59,4 +50,14 @@
 
 .col-12 {
   width: calc(100% - 0.5rem);
+}
+
+@each $screen, $width in $breakPoints {
+  @media screen and (min-width: $width) {
+    @for $i from 1 through 12 {
+      .col-#{$screen}-#{$i} {
+        width: calc((100% / 12) * $i - $gap);
+      }
+    }
+  }
 }

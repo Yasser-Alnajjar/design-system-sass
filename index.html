@@ -6,60 +6,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet" />
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
   <title>Design System - SASS</title>
 </head>
 
-<body>
-  <button class="btn primary toggle_mode">
-    Toggle Mode
-  </button>
-  <div class="m">
-    <button class="btn primary">Button</button>
-    <button class="btn indigo">Button</button>
-    <button class="btn pink">Button</button>
-    <button class="btn danger">Button</button>
-    <button class="btn orange">Button</button>
-    <button class="btn green">Button</button>
-    <button class="btn warning">Button</button>
-    <button class="btn teal">Button</button>
-    <button class="btn cyan">Button</button>
-    <button class="btn dark">Button</button>
-    <button class="btn white">Button</button>
-  </div>
-  <div class="row">
-    <div class="col-4">
-      <input type="text" class="control primary" />
+<body class="dark">
+  <div class="container">
+
+    <button class="btn primary toggle_mode">
+      🌕
+    </button>
+    <h2 class="m-block">Button</h2>
+    <div>
+      <button class="btn primary">Button</button>
+      <button class="btn indigo">Button</button>
+      <button class="btn pink">Button</button>
+      <button class="btn danger">Button</button>
+      <button class="btn orange">Button</button>
+      <button class="btn green">Button</button>
+      <button class="btn warning">Button</button>
+      <button class="btn teal">Button</button>
+      <button class="btn cyan">Button</button>
+      <button class="btn dark">Button</button>
+      <button class="btn white">Button</button>
     </div>
-    <div class="col-4"><input type="text" class="control indigo" /></div>
-    <div class="col-4"><input type="text" class="control pink" /></div>
-    <div class="col-4"><input type="text" class="control danger" /></div>
-    <div class="col-4"><input type="text" class="control orange" /></div>
-    <div class="col-4"><input type="text" class="control green" /></div>
-    <div class="col-4"><input type="text" class="control warning" /></div>
-    <div class="col-4"><input type="text" class="control teal" /></div>
-    <div class="col-4"><input type="text" class="control cyan" /></div>
-    <div class="col-4"><input type="text" class="control dark" /></div>
-    <div class="col-4">
-      <input type="text" class="control white" />
+    <h2 class="m-block">Input</h2>
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3">
+        <input type="text" class="control primary" />
+      </div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control indigo" /></div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control pink" /></div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control danger" /></div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control orange" /></div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control green" /></div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control warning" /></div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control teal" /></div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control cyan" /></div>
+      <div class="col-12 col-md-4 col-lg-3"><input type="text" class="control dark" /></div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <input type="text" class="control white" />
+      </div>
+    </div>
+    <h2 class="m-block">Textarea</h2>
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control primary"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control indigo"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control pink"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control danger"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control orange"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control green"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control warning"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control teal"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control cyan"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control dark"></textarea>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <textarea rows="6" type="text" class="control white"></textarea>
+      </div>
     </div>
   </div>
-  <div class="m">
-    <textarea rows="5" type="text" class="control primary"></textarea>
-    <textarea rows="5" type="text" class="control indigo"></textarea>
-    <textarea rows="5" type="text" class="control pink"></textarea>
-    <textarea rows="5" type="text" class="control danger"></textarea>
-    <textarea rows="5" type="text" class="control orange"></textarea>
-    <textarea rows="5" type="text" class="control green"></textarea>
-    <textarea rows="5" type="text" class="control warning"></textarea>
-    <textarea rows="5" type="text" class="control teal"></textarea>
-    <textarea rows="5" type="text" class="control cyan"></textarea>
-    <textarea rows="5" type="text" class="control dark"></textarea>
-    <textarea rows="5" type="text" class="control white"></textarea>
-  </div>
+
   <script src="./js/app.js"></script>
 </body>
 

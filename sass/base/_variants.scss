@@ -292,16 +292,17 @@ $variants_dark: (
     .btn.#{$variant} {
       color: $color;
       background-color: $background;
+      border-color: lighten($background, 10);
     }
     .btn:hover.#{$variant} {
       background-color: lighten($background, 10);
     }
 
     .control.#{$variant} {
-      border-color: $background;
       color: white;
+      border-color: lighten($background, 10);
       &.#{$variant}:focus {
-        border-color: lighten($background, 10);
+        border-color: lighten($background, 20);
       }
       &.#{$variant}:hover {
         border-color: lighten($background, 20);
